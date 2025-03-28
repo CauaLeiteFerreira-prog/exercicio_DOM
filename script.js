@@ -1,0 +1,10 @@
+let titulo = document.getElementById("titulo");
+console.log(titulo);
+        let esportesClasse = document.getElementsByClassName("esporte");
+        console.log(esportesClasse);
+        let itensLista = document.getElementsByTagName("li");
+        console.log(itensLista);
+        let primeiroEsporte = document.querySelector(".esporte");
+        console.log(primeiroEsporte);
+        let todosEsportes = document.querySelectorAll(".esporte");
+        console.log(todosEsportes);
